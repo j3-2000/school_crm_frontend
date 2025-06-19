@@ -107,13 +107,13 @@ function Navbar() {
               sx={{ display: { xs: "block", md: "none" } }}>
               {!authenticated && (
                 <>
-                  {/* <MenuItem onClick={handleCloseNavMenu}>
+                  <MenuItem onClick={handleCloseNavMenu}>
                 <Button className='button-beautify button-beautify-one' onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', }} >
                   <Box sx={{ display: 'flex', flexDirection: 'row' }} className="button-box">
                     Register
                   </Box>
                 </Button>
-              </MenuItem> */}
+              </MenuItem>
 
                   <MenuItem onClick={handleCloseNavMenu}>
                     <Button
@@ -174,7 +174,7 @@ function Navbar() {
                     </Box>
                   </Button>
                 </Link>
-                {/* 
+                
                 <Link className="nav-list" to={"/register"}>
                   <Button
                     className="button-beautify button-beautify-one"
@@ -186,7 +186,7 @@ function Navbar() {
                       Register
                     </Box>
                   </Button>
-                </Link> */}
+                </Link>
               </>
             )}
 
